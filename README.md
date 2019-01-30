@@ -1,24 +1,14 @@
-# README
+# Rails MOOCadmey
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Bienvenue sur notre deuxième projet Rails !
 
-Things you may want to cover:
+On vous invite à faire un git clone de notre repo pour récupérer notre travail. 
+<code> $ git clone https://github.com/thprennes7/rails_MOOCademy </code>
 
-* Ruby version
+## Notre réflexion
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+La MOOCademy est une plateforme d'apprentissage. Cette plateforme propose des cours qui ont plusieurs leçons. 
+Nous avons donc créé deux tables : 
+- Une pour les cours. Cette table contient trois colonnes : L'id de chaque cours, son titre et sa description.
+- Une pour les leçons. Cette table contient quatre colonnes : L'id de chaque leçon, son titre, son body et l'id du cours qui lui ai relié.
+ 
